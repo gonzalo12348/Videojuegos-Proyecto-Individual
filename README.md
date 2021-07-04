@@ -8,11 +8,18 @@
 ## Objetivos del Proyecto
 
 - Construir una App utlizando React, Redux, Node y Sequelize.
+- Aplicación en la cual se puedan ver los distintos videojuegos disponibles junto con información relevante de los mismos utilizando la api externa [rawg](https://rawg.io/apidocs) y a partir de ella poder, entre otras cosas:
+
+  - Buscar videjuegos
+  - Filtrarlos / Ordenarlos
+  - Agregar nuevos videojuegos
+
+__IMPORTANTE__: Para las funcionalidades de filtrado y ordenamiento no se utilizaron los endpoints de la API externa que ya devuelven los resultados filtrados u ordenados sino que fueron realizados por mi mismos.
 
 
-## Horarios y Fechas
+## Duracion
 
-El proyecto tendrá una duración máxima de tres semanas.
+El proyecto se realizo en una duración de tres semanas.
 
 ## Comenzando
 
@@ -29,16 +36,6 @@ El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas esta
 Adicionalmente será necesario que creen desde psql una base de datos llamada `videogames`
 
 El contenido de `client` fue creado usando: Create React App.
-
-## Enunciado
-
-La idea general es crear una aplicación en la cual se puedan ver los distintos videojuegos disponibles junto con información relevante de los mismos utilizando la api externa [rawg](https://rawg.io/apidocs) y a partir de ella poder, entre otras cosas:
-
-  - Buscar videjuegos
-  - Filtrarlos / Ordenarlos
-  - Agregar nuevos videojuegos
-
-__IMPORTANTE__: Para las funcionalidades de filtrado y ordenamiento no se utilizaron los endpoints de la API externa que ya devuelven los resultados filtrados u ordenados sino que fueron realizados por mi mismos.
 
 ### Requerimientos mínimos:
 

@@ -37,7 +37,6 @@ Adicionalmente será necesario que creen desde psql una base de datos llamada `v
 
 El contenido de `client` fue creado usando: Create React App.
 
-### Requerimientos mínimos:
 
 __IMPORTANTE__: No se utilizo ninguna librería externa para aplicar estilos a la aplicación. (CSS puro)
 

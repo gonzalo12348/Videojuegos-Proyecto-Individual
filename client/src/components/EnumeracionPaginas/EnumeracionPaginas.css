@@ -1,0 +1,62 @@
+.contenedor_numero{
+    /* background-color: rgb(105, 71, 136); */
+    padding-top: 25px;
+    padding-bottom: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+.contenedor_btn_numero{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    width: 500px;
+    height: 90px;
+}
+.btn_numero{
+    height: 60px;
+    width: 45px;
+    font-size: 45px;
+    cursor: pointer;
+    text-decoration: none;
+    /* font-size: 18px; */
+    border: 1px solid rgb(16, 35, 97);
+    color: antiquewhite;
+    border-radius: 10px;
+    background-color: rgb(16, 35, 97);
+}
+.btn_numero:active{
+    height: 55px;
+    width: 40px;
+}
+.btn_numero:hover{
+    background-color: antiquewhite;
+    color:rgb(16, 35, 97);
+}
+.btn_activado{
+    cursor: pointer;
+    font-size: 45px;
+    padding:10px;
+    border: 2px solid rgb(252, 252, 252);
+    color: rgba(133, 245, 211, 0.548);
+    border-radius: 10px;
+    background-color: rgb(16, 35, 97);
+}
+
+.btn_sig_atras{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid rgb(16, 35, 97);
+    color: antiquewhite;
+    border-radius: 10px;
+    background-color: rgb(16, 35, 97);
+}
+.btn_sig_atras:hover{
+    transition: 0.1s;
+    border: 1.5px solid cadetblue;
+    background-color: rgba(70, 96, 117, 0.596);
+    color: rgba(128, 255, 255, 0.781);
+}

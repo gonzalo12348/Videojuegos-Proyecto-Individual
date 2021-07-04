@@ -1,0 +1,156 @@
+*{
+    outline: none;
+    text-decoration: none;
+}
+.contenedoor{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.349);
+    
+    
+}
+.btnCreate{
+    color: black(29, 112, 33);
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    height: 55px;
+    width: 200px;
+    margin-top: 40px;
+    border: 5px solid rgb(29, 112, 33);
+    border-radius: 20px;
+    padding:7px;
+
+}
+.btnCreate:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+    border-color: rgb(51, 255, 0);
+    box-shadow: 0px 0px 20px rgba(0, 255, 13, 0.767);
+    background-color: rgba(36, 194, 15, 0.589);
+}
+.formularioo{
+    color: whitesmoke;
+    height: 855px;
+    width: 900px;
+    border-radius: 20px;
+    border: 3px solid rgb(14, 107, 11);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    /* background-color: rgba(0, 0, 0, 0.822); */
+    /* background-color: rgba(195, 198, 204, 0.959); */
+    /* background-color: rgba(12, 148, 57, 0.548); */
+    background-color: rgb(21, 23, 26);
+}
+.genres{
+    background-color: rgba(255, 255, 255, 0.952);
+    color: black;
+    display: grid;
+    padding: 15px;
+    gap: 2px;
+    padding-left: 90px;
+    justify-items: start;
+    grid-template-columns: repeat(4, 1fr);
+    border-radius: 10px;
+    font-size: 17px;
+    
+}
+.title_create{
+    color: rgb(53, 65, 65);
+}
+.inputt{
+    color: rgb(21, 22, 21);
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 3px solid rgb(8, 8, 8);
+    margin-left: 25px;
+    margin-top: 1rem;
+    font-size: 18px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+.inputt:hover{
+    transition: 0.5s;
+    border-color: rgb(3, 105, 12);
+    box-shadow: 0px 0px 20px rgba(122, 122, 122, 0.767);
+}
+.inputt::placeholder{
+    color: rgb(0, 0, 0);
+}
+.label{
+    font-size: 20px;
+    padding: 10px 10px 10px 0px;
+    color: rgb(255, 255, 255);
+    
+}
+.contenedordeinputs{
+    display: flex;
+    flex-direction: row;
+}
+.inputts{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-top: 1.5rem;
+    font-size: 18px;
+}
+.inputts:hover{
+    transition: 0.5s;
+    border-color: rgb(3, 105, 12);
+    box-shadow: 0px 0px 20px rgba(122, 122, 122, 0.767);
+}
+
+.btn_cont_form{
+    background-color: rgba(0, 0, 0, 0.26);
+    padding-left: 400px;
+    padding-top: 20px;
+}
+
+.label_btn{
+    cursor: pointer;
+    color: black;
+    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 20px;
+}
+.label_btn:hover{
+    border: 2px solid green;
+}
+.input_generos:hover{
+    cursor: pointer;
+}
+
+.btn_atras_create{
+    width: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid rgb(16, 35, 97) ;
+    color: antiquewhite;
+    border-radius: 10px;
+    background-color: rgb(21, 23, 26);
+    height: 40px;
+    
+}
+.btn_atras_create:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid rgb(211, 199, 29);
+    background-color: rgba(19, 153, 113, 0.849);
+}

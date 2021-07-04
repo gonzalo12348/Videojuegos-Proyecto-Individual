@@ -1,0 +1,59 @@
+.title_juegoCreado{
+    color: rgb(254, 255, 248);
+    font-size: 50px;
+    /* background-color:rgba(0, 0, 0, 0.527); */
+}
+.gamec{
+    grid-template-columns: repeat(2,1fr);
+    color: whitesmoke ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(31, 69, 95, 0.609);
+    border: 1.5px solid rgb(0, 0, 0) ;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 3.5rem;
+}
+.detalles{
+    display: flex;
+    height: 180px;
+    flex-direction: column;
+    font-size: 18px;
+    width: 400px;
+    padding-bottom: 60px;
+}
+.containerCreado{
+    display: grid;
+    height: 585px;
+    justify-content: space-between;
+    padding: 30px;
+    gap:20px;
+    background-color: rgba(0, 0, 0, 0.822);
+    grid-template-columns: 2fr;
+}
+
+
+@media (max-width: 1920px) {
+    .containerCreado {
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 140px;
+        gap: 30px;
+    }
+  }
+  @media(max-width: 1060px) {
+    .containerCreado {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+  }
+  @media(max-width: 750px) {
+    .containerCreado {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  
+  }
+ 

@@ -1,0 +1,39 @@
+body{
+    background-image: url('http://pavbca.com/walldb/original/0/7/d/290537.jpg');
+}
+.container_home{
+    display: flex;
+    /* border: 2px solid white; */
+    padding-bottom: 10px;
+    /* background-color: rgba(253, 253, 253, 0.514); */
+    margin-top: 10%;
+    height: 22rem;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    backdrop-filter: blur(2px);
+}
+.title_home{
+    font-size: 100Px;
+    color: rgb(240, 240, 255);
+    -webkit-text-stroke: 2px black;
+    line-height: 200%;
+    font-family: 'Times New Roman';
+    letter-spacing: 18px;
+    text-decoration: rgb(86, 190, 76);
+}
+.title_home:hover{
+    cursor:default;
+}
+.btn_home{
+    background-image: url('../../assets/press_start.png');
+    border: 2px solid white;
+    margin-left: ;
+    width: 300px;
+    height: 170px;
+    border-radius: 10px 100px 100px 100px;
+}
+.btn_home:hover {
+    -webkit-transform:scale(1.2);transform:scale(1.1);
+    cursor: pointer;
+}

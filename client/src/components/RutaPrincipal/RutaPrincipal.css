@@ -1,0 +1,56 @@
+.contenedor_rp{
+    
+}
+.title_rp{
+    text-decoration: none;
+    color: cornsilk;
+}
+.contenedor_post{
+    position: fixed;
+    margin-left: 1700px;
+    margin-top: 600px;
+    margin-right: auto;
+    display: flex;
+    flex-direction:row-reverse;
+    /* border:2px solid white; */
+}
+.btn_post{
+    height:110px;
+    width: 120px;
+    margin-right: 80px;
+    background-image: url('https://www.shareicon.net/data/128x128/2015/11/08/668970_game_512x512.png');
+    background-size: cover;
+    border-radius: 50px;
+    background-color: rgba(16, 71, 116, 0.596);
+    border:8px solid rgba(85, 79, 79, 0.507);
+}
+.btn_post:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    border-color: rgba(37, 255, 226, 0.822);
+    background-color: rgba(190, 211, 207, 0.514);
+    box-shadow: 0 0 40px 0 white;
+}
+
+.btn_cont{
+    background-color: rgba(0, 0, 0, 0.822);
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.btn_atras{
+    width: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid rgb(16, 35, 97) ;
+    color: antiquewhite;
+    border-radius: 10px;
+    background-color: rgb(16, 35, 97);
+    height: 40px;
+    
+}
+.btn_atras:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid rgb(211, 199, 29);
+    background-color: rgb(21, 82, 151);
+}

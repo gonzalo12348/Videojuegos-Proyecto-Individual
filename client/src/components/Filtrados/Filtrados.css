@@ -1,0 +1,87 @@
+
+
+.ordenar{
+    height: 30px;
+    margin-right: 5px;
+}
+
+.filtrado{
+    margin-right:10px;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.contenedor_btn{
+    color: wheat;
+    display: flex;
+    align-items: center;
+}
+.contenedor_filtrado{
+    display: flex;
+    align-items: center;
+}
+.submit_juegoCreado{
+    border: 2px solid white;
+    margin-right: 15px;
+    height: 40px;
+    border-radius: 8px;
+}
+.submit_juegoCreado{
+    cursor: pointer;
+}
+.submit_genero{
+    height: 40px;
+    width: 60px;
+    margin-right: 12px;
+    border-radius: 8px;
+}
+.submit_genero:hover{
+    cursor: pointer;
+}
+
+.btnGamess{
+    width: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid rgb(3, 3, 3) ;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+  }
+  .btnGamess:hover{
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.3s;
+    border: 1px solid rgb(59, 119, 119);
+    background-color: rgba(18, 112, 104, 0.815);
+    color: rgb(255, 255, 255);
+    transition: 0.1s;
+    border: 1.5px solid cadetblue;
+    background-color: rgba(70, 96, 117, 0.596);
+    color: rgba(128, 255, 255, 0.781);
+  }
+  .btnAscDesc{
+    width: 135px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid rgb(3, 3, 3) ;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    margin-left: 20px;
+  }
+  .btnAscDesc:hover{
+    cursor: pointer;
+    font-size: 17px;
+    /* transition: 0.3s;
+    border: 1px solid rgb(59, 119, 119);
+    background-color: rgba(18, 112, 104, 0.815);
+    color: rgb(255, 255, 255); */
+    transition: 0.1s;
+    border: 1.5px solid cadetblue;
+    background-color: rgba(70, 96, 117, 0.596);
+    color: rgba(128, 255, 255, 0.781);
+}

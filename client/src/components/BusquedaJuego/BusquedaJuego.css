@@ -1,0 +1,47 @@
+.contenedor_navbar{
+    background-color: rgb(21, 23, 26);
+    height: 100px;
+    margin-top: 0px;
+    display: flex;
+    padding-left: 30px;
+    border-radius: 10px;
+    /* position:fixed; */
+    justify-content: space-around;
+    align-items: center;
+}
+.title_navbar{
+    color: rgb(255, 255, 255);
+}
+
+.input{
+    width: 30rem;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.btn_enviar{
+    background-image: url('../../assets/—Pngtree—black\ simple\ magnifying\ glass\ png_4523436.png');
+    height: 40px;
+    width: 70px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 8px;
+
+}
+.btn_enviar:hover{
+    cursor: pointer;
+    transition: 0.1s;
+    border: 1.5px solid cadetblue;
+    background-color: rgba(70, 96, 117, 0.596);
+    color: rgba(128, 255, 255, 0.781);
+}
+.btn_enviar:active{
+    width: 65px;
+    height: 35px;
+}
+.form_navbar{
+    display: flex;
+    align-items: center;
+}

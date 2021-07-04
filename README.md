@@ -2,7 +2,7 @@
 # Proyecto Individual - Videogame App
 
 <p align="right">
-  <img height="200" src="https://raw.githubusercontent.com/gonzalo12348/PI-Videogames-FT12/master/videogame.png?token=ARJWCOPTAM7Z7Q2XMC6IBO3A4HYGG" />
+  <img height="200" src="./videogame.png" />
 </p>
 
 ## Objetivos del Proyecto

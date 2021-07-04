@@ -87,5 +87,5 @@ La relación entre ambas entidades son de muchos a muchos ya que un videojuego p
 
 #### Backend
 
-Servidor en Node/Express con diversas rutas:
+Servidor en Node/Express con diversas rutas
 

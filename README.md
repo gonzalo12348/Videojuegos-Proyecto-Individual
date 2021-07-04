@@ -2,7 +2,7 @@
 # Proyecto Individual - Videogame App
 
 <p align="right">
-  <img height="200" src="https://raw.githubusercontent.com/gonzalo12348/PI-Videogames-FT12/master/videogame.png?token=ARJWCOPTAM7Z7Q2XMC6IBO3A4HYGG" />
+  <img height="200" src="./videogame.png" />
 </p>
 
 ## Objetivos del Proyecto
@@ -16,6 +16,7 @@
 
 __IMPORTANTE__: Para las funcionalidades de filtrado y ordenamiento no se utilizaron los endpoints de la API externa que ya devuelven los resultados filtrados u ordenados sino que fueron realizados por mi mismos.
 
+## Demo
 
 ## Duracion
 
@@ -33,7 +34,7 @@ El proyecto se realizo en una duración de tres semanas.
 
 El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas estará el código del back-end y el front-end respectivamente.
 
-Adicionalmente será necesario que creen desde psql una base de datos llamada `videogames`
+Adicionalmente cree una base de datos desde psql llamada `videogames`
 
 El contenido de `client` fue creado usando: Create React App.
 
@@ -86,5 +87,5 @@ La relación entre ambas entidades son de muchos a muchos ya que un videojuego p
 
 #### Backend
 
-Servidor en Node/Express con diversas rutas:
+Servidor en Node/Express con diversas rutas
 

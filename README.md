@@ -34,7 +34,7 @@ El proyecto se realizo en una duración de tres semanas.
 
 El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas estará el código del back-end y el front-end respectivamente.
 
-Adicionalmente será necesario que creen desde psql una base de datos llamada `videogames`
+Adicionalmente cree una base de datos desde psql llamada `videogames`
 
 El contenido de `client` fue creado usando: Create React App.
 

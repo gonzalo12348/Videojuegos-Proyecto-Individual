@@ -5,7 +5,7 @@
 # Individual Project - Henry Videogames
 
 <p align="right">
-  <img height="200" src="./videogame.png" />
+  <img height="200" src="https://raw.githubusercontent.com/gonzalo12348/PI-Videogames-FT12/master/videogame.png?token=ARJWCOPTAM7Z7Q2XMC6IBO3A4HYGG" />
 </p>
 
 ## Objetivos del Proyecto

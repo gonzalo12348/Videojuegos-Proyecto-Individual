@@ -18,8 +18,8 @@ __IMPORTANTE__: Para las funcionalidades de filtrado y ordenamiento no se utiliz
 
 ## Demo
 <p align="center">
+   <img height="200" src="./imgDemo/2.png" />
   <img height="200" src="./imgDemo/1.png" />
-  <img height="200" src="./imgDemo/2.png" />
   <img height="200" src="./imgDemo/3.png" />
   <img height="200" src="./imgDemo/4.png" />
 </p>

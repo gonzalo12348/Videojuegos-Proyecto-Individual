@@ -21,7 +21,7 @@ __IMPORTANTE__: Para las funcionalidades de filtrado y ordenamiento no se utiliz
    <img height="250" width="50%" src="./imgDemo/2.png" />
   <img height="250" width="45%" src="./imgDemo/1.png" />
   <img height="250" width="50%" src="./imgDemo/3.png" />
-  <img height="250" width="50%" src="./imgDemo/4.png" />
+  <img height="250" width="45%" src="./imgDemo/4.png" />
 </div>
 
 

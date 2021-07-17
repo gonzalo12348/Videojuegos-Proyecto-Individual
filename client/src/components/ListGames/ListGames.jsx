@@ -22,9 +22,9 @@ export default function ListGames(){
         return renderizarJuegos(gamesAll, generofiltrado , orden , ascenOdescen, gamesCreated)
     }
 
-    useEffect( async()=> {
-        await dispatch(getGamesCreated())
-        await dispatch(get15games());
+    useEffect( ()=> {
+        dispatch(getGamesCreated())
+        dispatch(get15games());
     }, []);
 
     return (

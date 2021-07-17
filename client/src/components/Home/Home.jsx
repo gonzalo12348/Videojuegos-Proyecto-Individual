@@ -11,11 +11,13 @@ export default function Home(){
     }
 
     return (
-        <div className='container_home'>
-            <h1 className='title_home'>VIDEOGAMES APP</h1>
-            <Link to='/home'>
-                <button className='btn_home' onClick={limpiarEstado}></button>
-            </Link>
+        <div className='container_mainP'>
+            <div className='container_home'>
+                <h1 className='title_home'>VIDEOGAMES APP</h1>
+                <Link to='/home'>
+                    <button className='btn_home' onClick={limpiarEstado}></button>
+                </Link>
+            </div>
         </div>
     )
 }

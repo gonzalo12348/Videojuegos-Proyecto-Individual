@@ -2,16 +2,43 @@
     outline: none;
     text-decoration: none;
 }
+body {
+    background-color: rgba(0, 0, 0, 0.349);
+}
 .contenedoor{
     color: whitesmoke;
+    height: 100%;
+    height: 88.6vh;
     display: flex;
-    justify-content: center;
+    /* flex-direction: column; */
+    justify-content:center;
+    /* justify-content: center; */
     align-items: center;
     justify-items: center;
-    padding: 100px;
+    /* padding: 100px; */
     background-color: rgba(0, 0, 0, 0.349);
+    /* background-color: red; */
     
     
+}
+.formularioo{
+    color: whitesmoke;
+    height: 87%;
+    /* margin-top: 10%; */
+    padding: 2%;
+    width: 70%;
+    border-radius: 20px;
+    border: 3px solid rgb(14, 107, 11);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    /* background-color: rgba(0, 0, 0, 0.822); */
+    /* background-color: rgba(195, 198, 204, 0.959); */
+    /* background-color: rgba(12, 148, 57, 0.548); */
+    background-color: rgb(21, 23, 26);
 }
 .btnCreate{
     color: black(29, 112, 33);
@@ -33,23 +60,7 @@
     box-shadow: 0px 0px 20px rgba(0, 255, 13, 0.767);
     background-color: rgba(36, 194, 15, 0.589);
 }
-.formularioo{
-    color: whitesmoke;
-    height: 855px;
-    width: 900px;
-    border-radius: 20px;
-    border: 3px solid rgb(14, 107, 11);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    backdrop-filter: blur(8px);
-    /* background-color: rgba(0, 0, 0, 0.822); */
-    /* background-color: rgba(195, 198, 204, 0.959); */
-    /* background-color: rgba(12, 148, 57, 0.548); */
-    background-color: rgb(21, 23, 26);
-}
+
 .genres{
     background-color: rgba(255, 255, 255, 0.952);
     color: black;
@@ -69,12 +80,12 @@
 .inputt{
     color: rgb(21, 22, 21);
     background-color: rgb(255, 255, 255);
-    width: 600px;
+    width: 100%;
     height: 40px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     border-radius: 8px;
     border: 3px solid rgb(8, 8, 8);
-    margin-left: 25px;
+    /* margin-left: 25px; */
     margin-top: 1rem;
     font-size: 18px;
     border-top:none;
@@ -117,9 +128,10 @@
 }
 
 .btn_cont_form{
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.26);
-    padding-left: 400px;
-    padding-top: 20px;
+    padding-left: 5%;
+    padding-top: 1.5%;
 }
 
 .label_btn{
@@ -141,11 +153,14 @@
     width: 100px;
     text-decoration: none;
     font-size: 18px;
-    border: 1px solid rgb(16, 35, 97) ;
+    border: 1px solid rgb(14, 107, 11);
     color: antiquewhite;
     border-radius: 10px;
     background-color: rgb(21, 23, 26);
-    height: 40px;
+    height: 4rem;
+
+
+    
     
 }
 .btn_atras_create:hover{
@@ -153,4 +168,30 @@
     transition: 0.3s;
     border: 1px solid rgb(211, 199, 29);
     background-color: rgba(19, 153, 113, 0.849);
+}
+
+/* new  */
+.inputs_header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    /* background-color: seagreen; */
+}
+.inputs_3{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    /* align-items: center; */
+    /* border: 2px solid salmon; */
+}
+.inputs_2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    width: 45%;
+    /* padding-left: 10%; */
+}
+.title_h2{
+    letter-spacing: 6px;
 }

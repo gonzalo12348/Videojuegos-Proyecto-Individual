@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.47349a7c.chunk.css",
-    "main.js": "/static/js/main.00453f27.chunk.js",
-    "main.js.map": "/static/js/main.00453f27.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6ac5b4fe.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6ac5b4fe.js.map",
-    "static/js/2.e83165aa.chunk.js": "/static/js/2.e83165aa.chunk.js",
-    "static/js/2.e83165aa.chunk.js.map": "/static/js/2.e83165aa.chunk.js.map",
-    "static/js/3.7279992d.chunk.js": "/static/js/3.7279992d.chunk.js",
-    "static/js/3.7279992d.chunk.js.map": "/static/js/3.7279992d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.47349a7c.chunk.css.map": "/static/css/main.47349a7c.chunk.css.map",
-    "static/js/2.e83165aa.chunk.js.LICENSE.txt": "/static/js/2.e83165aa.chunk.js.LICENSE.txt",
-    "static/media/BusquedaJuego.css": "/static/media/—Pngtree—black simple magnifying glass png_4523436.3458fff3.png"
+    "main.css": "/Videojuegos-Proyecto-Individual/static/css/main.90abc427.chunk.css",
+    "main.js": "/Videojuegos-Proyecto-Individual/static/js/main.00453f27.chunk.js",
+    "main.js.map": "/Videojuegos-Proyecto-Individual/static/js/main.00453f27.chunk.js.map",
+    "runtime-main.js": "/Videojuegos-Proyecto-Individual/static/js/runtime-main.55ae46c2.js",
+    "runtime-main.js.map": "/Videojuegos-Proyecto-Individual/static/js/runtime-main.55ae46c2.js.map",
+    "static/js/2.e83165aa.chunk.js": "/Videojuegos-Proyecto-Individual/static/js/2.e83165aa.chunk.js",
+    "static/js/2.e83165aa.chunk.js.map": "/Videojuegos-Proyecto-Individual/static/js/2.e83165aa.chunk.js.map",
+    "static/js/3.7279992d.chunk.js": "/Videojuegos-Proyecto-Individual/static/js/3.7279992d.chunk.js",
+    "static/js/3.7279992d.chunk.js.map": "/Videojuegos-Proyecto-Individual/static/js/3.7279992d.chunk.js.map",
+    "index.html": "/Videojuegos-Proyecto-Individual/index.html",
+    "static/css/main.90abc427.chunk.css.map": "/Videojuegos-Proyecto-Individual/static/css/main.90abc427.chunk.css.map",
+    "static/js/2.e83165aa.chunk.js.LICENSE.txt": "/Videojuegos-Proyecto-Individual/static/js/2.e83165aa.chunk.js.LICENSE.txt",
+    "static/media/BusquedaJuego.css": "/Videojuegos-Proyecto-Individual/static/media/—Pngtree—black simple magnifying glass png_4523436.3458fff3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6ac5b4fe.js",
+    "static/js/runtime-main.55ae46c2.js",
     "static/js/2.e83165aa.chunk.js",
-    "static/css/main.47349a7c.chunk.css",
+    "static/css/main.90abc427.chunk.css",
     "static/js/main.00453f27.chunk.js"
   ]
 }

@@ -33,7 +33,7 @@ export function renderizarJuegos(games , generofiltrado, orden , ascenOdescen,ga
             }
             return (game.gender.find(item => item == generofiltrado) && 
             <Link path to={`/videogame/${game.id}`} className='game'>
-                <div>
+                <div className='cont_info_item'>
                     <h3 className='titleGame'>{game.name}</h3>
                     <img src={game.img} className='img' />
                     <ul className='list'>
@@ -48,7 +48,7 @@ export function renderizarJuegos(games , generofiltrado, orden , ascenOdescen,ga
         } else{
             return (
             <Link path to={`/videogame/${game.id}`} className='game'>
-                <div>
+                <div className='cont_info_item'>
                     <h3 className='titleGame'>{game.name}</h3>
                     <img src={game.img} className='img' />
                     <ul className='list'>

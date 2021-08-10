@@ -17,14 +17,14 @@ export default function GameDetails() {
         }
     },[])
     return (
-        <>
-        <br/>
-        <Link path to='/home' >
-            <button className='btn_atras_detailts'>Atras</button>
-        </Link>
-        {
-            gameD[0]?game(gameD[0]):null
-        }
-        </>
+        <div className='cont_gamedetails'>
+            <br/>
+            <Link path to='/home' >
+                <button className='btn_atras_detailts'>Atras</button>
+            </Link>
+            {
+                gameD[0]?game(gameD[0]):null
+            }
+        </div>
     )
 }

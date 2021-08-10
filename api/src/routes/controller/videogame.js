@@ -1,5 +1,8 @@
 const fetch = require('node-fetch');
 const { Videogame, Gender } = require('../../db');
+const {
+    API_KEY
+  } = process.env;
 
 
 function getOneGame(req, res) {
@@ -30,7 +33,7 @@ function getOneGame(req, res) {
 
         })
     }
-    fetch(`https://api.rawg.io/api/games/${id}?key=5ebd334670d34f38b7b03ac1ac26421f`)
+    fetch(`https://api.rawg.io/api/games/${id}?key=${API_KEY}`)
     .then(response => response.json())
     .then(data =>{
         if(!data) return res.send('No existe videojuego con el id buscado')

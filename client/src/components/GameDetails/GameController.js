@@ -3,7 +3,6 @@ const regEx = new RegExp('(<(br|p|div|\/div|br \/|\/p|strong|\/strong|br\/)>)','
 
 export function game(game){
     const { img , name , gender , rating , released , description , platforms} = game
-    console.log('ACALOCOMIRALO',game);
     return (
         <div className='containerDetails'>
             <div className='faa'>

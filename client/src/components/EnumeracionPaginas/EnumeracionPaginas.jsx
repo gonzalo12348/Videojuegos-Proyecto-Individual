@@ -49,15 +49,15 @@ export default function EnumeracionPaginas() {
     }
 
     useEffect(()=> {
-        console.log('este es el indicePagina', indicePagina);
-        console.log('este es el indicepaginaaxu', indicePaginaAux);
+        // console.log('este es el indicePagina', indicePagina);
+        // console.log('este es el indicepaginaaxu', indicePaginaAux);
         setIndicePaginaAux(indicePagina);
     },[indicePagina])
     useEffect(()=>{
         console.log('este es el games next àputrokadsa',gamesNext);
     },[gamesNext])
     return (
-        <>
+        <div className='cont_enumeracion'>
         <h1 className='title_listg'>Lista de juegos</h1>
         <div className='contenedor_numero'>
             <button className='btn_sig_atras' onClick={clickPrevious}>ANTERIOR</button>
@@ -68,6 +68,6 @@ export default function EnumeracionPaginas() {
             </div>
             <button className='btn_sig_atras' onClick={clickNext}>SIGUIENTE</button>
         </div>
-        </>
+        </div>
     )
 }

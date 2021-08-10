@@ -1,10 +1,15 @@
 // instalamos npm i node-fetch para usar fetch papu
 const fetch = require('node-fetch');
+const {
+    API_KEY
+  } = process.env;
+
+
 let contador = 1; 
 function getNextGames15(req, res) {
     if(req.query.name) return getGames15ByName(req,res)
     contador++
-    fetch(`https://api.rawg.io/api/games?key=5ebd334670d34f38b7b03ac1ac26421f&page=${contador}`)
+    fetch(`https://api.rawg.io/api/games?key=${API_KEY}&page=${contador}`)
     .then(response => response.json())
     .then(data =>{
         array = [];
@@ -28,7 +33,7 @@ function getNextGames15(req, res) {
 function getPreviousGames15(req, res) {
     contador--
     if(req.query.name) return getGames15ByName(req,res)
-    fetch(`https://api.rawg.io/api/games?key=5ebd334670d34f38b7b03ac1ac26421f&page=${contador}`)
+    fetch(`https://api.rawg.io/api/games?key=${API_KEY}&page=${contador}`)
     .then(response => response.json())
     .then(data =>{
         array = [];

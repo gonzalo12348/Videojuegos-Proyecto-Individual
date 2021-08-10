@@ -3,11 +3,14 @@ const { Op } = require("sequelize");
 const axios = require('axios')
 // instalamos npm i node-fetch para usar fetch
 const fetch = require('node-fetch');
+const {
+    API_KEY
+  } = process.env;
 
 
 function getGames15(req, res) {
     if(req.query.name) return getGames15ByName(req,res)
-    fetch(`https://api.rawg.io/api/games?key=5ebd334670d34f38b7b03ac1ac26421f&page=1`)
+    fetch(`https://api.rawg.io/api/games?key=${API_KEY}&page=1`)
     .then(response => response.json())
     .then(data =>{
         array = [];
@@ -50,7 +53,7 @@ async function getGames15ByName(req, res) {
             id: juego.id
         })
     })
-    const juegosApi = await axios.get(`https://api.rawg.io/api/games?key=5ebd334670d34f38b7b03ac1ac26421f&search=${req.query.name}`)
+    const juegosApi = await axios.get(`https://api.rawg.io/api/games?key=${API_KEY}&search=${req.query.name}`)
     
     juegosApi.data.results.map((game, index)=>{
         if(index < 15){

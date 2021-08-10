@@ -21,7 +21,7 @@ export default function BusquedaJuego(){
             <h2 className='title_navbar'>VIDEOGAME APP</h2>
             <form className='form_navbar' onSubmit={(e) => SearchGame(e)}>
                 <input className='input' placeholder='Buscar videojuego....' type='text' onChange={(e) =>{setInputValue(e.target.value)}}/>
-                <button className='btn_enviar' type='submit'>Enviar</button>
+                <button className='btn_enviar' type='submit'>Buscar</button>
             </form>
             <Filtrados/>
         </div>

@@ -1,6 +1,6 @@
 .contenedor_navbar{
     background-color: rgb(21, 23, 26);
-    height: 100px;
+    height: 5rem;
     margin-top: 0px;
     display: flex;
     padding-left: 30px;
@@ -8,9 +8,12 @@
     /* position:fixed; */
     justify-content: space-around;
     align-items: center;
+    font-size: 80%;
 }
 .title_navbar{
     color: rgb(255, 255, 255);
+    /* border: 2px solid wheat; */
+    width: 15%;
 }
 
 .input{
@@ -44,4 +47,6 @@
 .form_navbar{
     display: flex;
     align-items: center;
+    /* border: 2px solid wheat; */
+    padding-right: 1%;
 }

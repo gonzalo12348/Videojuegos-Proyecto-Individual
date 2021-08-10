@@ -3,10 +3,13 @@ const { Op } = require("sequelize");
 const axios = require('axios')
 // instalamos npm i node-fetch para usar fetch
 const fetch = require('node-fetch');
+const {
+    API_KEY
+  } = process.env;
 
 
 function postGames(req, res) {
-    fetch(`https://api.rawg.io/api/games?key=5ebd334670d34f38b7b03ac1ac26421f&page=${req.body.numero}`)
+    fetch(`https://api.rawg.io/api/games?key=${API_KEY}&page=${req.body.numero}`)
     .then(response => response.json())
     .then(data =>{
         array = [];

@@ -10,7 +10,8 @@
     height: 40px;
     width: 120px;
     border-radius: 8px;
-    margin-left: 12px;
+    margin-left: 5px;
+    cursor: pointer;
 }
 .contenedor_btn{
     color: wheat;
@@ -20,6 +21,7 @@
 .contenedor_filtrado{
     display: flex;
     align-items: center;
+    /* border: 2px solid white; */
 }
 .submit_juegoCreado{
     border: 2px solid white;
@@ -71,7 +73,8 @@
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     height: 50px;
-    margin-left: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .btnAscDesc:hover{
     cursor: pointer;

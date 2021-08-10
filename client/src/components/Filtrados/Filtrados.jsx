@@ -42,8 +42,8 @@ export default function Filtrados(){
         return dispatch({type:'SET_ASCEN_DESCEN', payload:null})
     }
 
-    useEffect(async()=>{
-        await dispatch(getGenres())
+    useEffect(()=>{
+         dispatch(getGenres())
     },[])
     useEffect(()=>{
         console.log(orden)
@@ -51,7 +51,7 @@ export default function Filtrados(){
     return(
         <div className='contenedor_btn'>
                 <div className='contenedor_filtrado'>
-                    <p>Filtrar por :</p>
+                    <p>Filtrar por:</p>
                     <select className='filtrado' onClick={HandlerFiltradosSelect}>
                         <option value='null'>Seleccione una opcion:</option>
                         <option value='genero'>Genero</option>
@@ -76,7 +76,7 @@ export default function Filtrados(){
                     }
                 </div>
 
-                <p>Ordenar por :</p>
+                <p>Ordenar por:</p>
                 <select className='filtrado' ref={Ordenamiento}>
                     <option value='null'>Seleccione una opcion</option>
                     <option value='Alfabeticamente'>Alfabeticamente</option>

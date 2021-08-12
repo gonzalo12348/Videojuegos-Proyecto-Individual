@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://147.182.221.80:8080';
+export const BASE_URL = 'http://localhost:3001';
 export const GET_15GAMES_URL = BASE_URL + '/videogames';
 export const GET_GAMES_FOUNDED_URL = GET_15GAMES_URL+ '?name=';
 export const GET_GAME_DETAILS_URL = BASE_URL + '/videogame/'

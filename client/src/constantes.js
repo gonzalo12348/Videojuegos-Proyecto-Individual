@@ -1,4 +1,8 @@
-export const BASE_URL = 'http://147.182.221.80:3001';
+import dotenv from 'dotenv'
+dotenv.config();
+
+// axios.defaults.baseURL = process.env.REACT_APP_API || 'http://localhost:3001'
+export const BASE_URL = process.env.REACT_APP_API || 'http://localhost:3001';
 export const GET_15GAMES_URL = BASE_URL + '/videogames';
 export const GET_GAMES_FOUNDED_URL = GET_15GAMES_URL+ '?name=';
 export const GET_GAME_DETAILS_URL = BASE_URL + '/videogame/'

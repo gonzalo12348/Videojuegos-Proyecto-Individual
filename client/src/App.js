@@ -1,6 +1,6 @@
-import { BrowserRouter as Router, Redirect, Route, Switch} from 'react-router-dom'
+import { BrowserRouter as Router, Redirect, Route} from 'react-router-dom'
 import RutaPrincipal from './components/RutaPrincipal/RutaPrincipal';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import GameDetails from './components/GameDetails/GameDetails.jsx';
 import Home from './components/Home/Home';
 import BusquedaJuego from './components/BusquedaJuego/BusquedaJuego';
@@ -19,7 +19,7 @@ function App() {
       <Route exact path='/gameCreated' component={BusquedaJuego} />
       <Route exact path='/gameCreated' component={JuegosCreados} />
       <Route exact path='/videogame/:gameId' component={GameDetails} />
-      {/* <Redirect from="/Videojuegos-Proyecto-Individual" to="/" /> */}
+      <Redirect from="/Videojuegos-Proyecto-Individual" to="/" />
       {/* </Switch> */}
     </Router>
   );

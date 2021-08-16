@@ -9,26 +9,27 @@ const {
 
 
 function getGames15(req, res) {
-    if(req.query.name) return getGames15ByName(req,res)
-    fetch(`https://api.rawg.io/api/games?key=${API_KEY}&page=1`)
-    .then(response => response.json())
-    .then(data =>{
-        array = [];
-        data.results.map(( game , index )=>{
-            if(index < 15){
-                generos = [];
-                generos.push(game.genres.map(genero => genero.name));
-                array.push({
-                    img: game.background_image,
-                    name: game.name,
-                    gender: generos.flat(),
-                    rating: game.rating,
-                    id: game.id
-                })
-            }    
-        })
-        res.json(array)
-    })
+    // if(req.query.name) return getGames15ByName(req,res)
+    // fetch(`https://api.rawg.io/api/games?key=${API_KEY}&page=1`)
+    // .then(response => response.json())
+    // .then(data =>{
+    //     array = [];
+    //     data.results.map(( game , index )=>{
+    //         if(index < 15){
+    //             generos = [];
+    //             generos.push(game.genres.map(genero => genero.name));
+    //             array.push({
+    //                 img: game.background_image,
+    //                 name: game.name,
+    //                 gender: generos.flat(),
+    //                 rating: game.rating,
+    //                 id: game.id
+    //             })
+    //         }    
+    //     })
+    //     res.json(array)
+    // })
+    res.send('todo joya papu , sos re capo')
 }
 
 async function getGames15ByName(req, res) {

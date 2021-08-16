@@ -19,7 +19,7 @@ function App() {
       <Route exact path='/gameCreated' component={BusquedaJuego} />
       <Route exact path='/gameCreated' component={JuegosCreados} />
       <Route exact path='/videogame/:gameId' component={GameDetails} />
-      <Redirect from="/Videojuegos-Proyecto-Individual" to="/" />
+      {/* <Redirect from="/Videojuegos-Proyecto-Individual" to="/" /> */}
       {/* </Switch> */}
     </Router>
   );

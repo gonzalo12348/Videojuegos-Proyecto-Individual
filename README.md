@@ -1,5 +1,5 @@
 
-# Proyecto Individual - Videogame App
+# Proyecto - Videogame App
 
 <p align="right">
   <img height="200" src="./videogame.png" />
